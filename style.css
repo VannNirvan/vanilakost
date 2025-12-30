@@ -1,0 +1,10 @@
+body { font-family: 'Inter', sans-serif; }
+h1, h2, h3, .font-poppins { font-family: 'Poppins', sans-serif; }
+.reveal { opacity: 0; transform: translateY(30px); }
+.glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.zoom-img { transition: transform 0.5s ease; }
+.zoom-img:hover { transform: scale(1.05); }
